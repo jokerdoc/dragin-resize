@@ -1,0 +1,20 @@
+{
+  "name": "lemon-dragin-resize",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jokerdoc/dragin-resize.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "lemon-pack"
+  },
+  "devDependencies": {
+    "lemon-pack": "^0.2.0"
+  },
+  "dependencies": {
+    "lemon-dragin": "^0.2.0",
+    "lemon-util": "^2.0.0"
+  }
+}
