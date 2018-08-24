@@ -3,14 +3,14 @@
 
 ### 在项目中安装
 ```bash
-npm install lemon-dragin-resize --save
+npm install jo-dragin-resize --save
 # 或
-yarn add lemon-dragin-resize
+yarn add jo-dragin-resize
 ```
 
 ### 使用
 ```js
-import DraginResize from 'lemon-dragin-resize';
+import DraginResize from 'jo-dragin-resize';
 
 new DraginResize(docment.querySelector('#box'), {
   clone: true,

@@ -2782,6 +2782,19 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+jo-dragin@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/jo-dragin/-/jo-dragin-0.2.0.tgz#71ad756562bf0f2f4e344522250f68912b18d5b3"
+  dependencies:
+    jo-util "^0.1.0"
+
+jo-util@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/jo-util/-/jo-util-0.1.0.tgz#3016870e17edf73d624f4bf576a7bcc54e90c492"
+  dependencies:
+    lodash "^4.17.10"
+    moment "^2.22.2"
+
 js-base64@^2.1.8:
   version "2.4.8"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.8.tgz#57a9b130888f956834aa40c5b165ba59c758f033"
@@ -2877,12 +2890,6 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
-lemon-dragin@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/lemon-dragin/-/lemon-dragin-0.2.0.tgz#aa03fef569a46317d641015c5995de60c2d75959"
-  dependencies:
-    lemon-util "^2.0.0"
-
 lemon-pack@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/lemon-pack/-/lemon-pack-0.2.0.tgz#dc14e9204e4ef0e004196d81cec01817beaeeb5d"
@@ -2903,13 +2910,6 @@ lemon-pack@^0.2.0:
     webpack "^4.16.2"
     webpack-cli "^3.1.0"
     webpack-dev-server "^3.1.5"
-
-lemon-util@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/lemon-util/-/lemon-util-2.0.0.tgz#715445fd2bcf3ab1eabcd635be3e9db8efd15502"
-  dependencies:
-    lodash "^4.17.10"
-    moment "^2.22.2"
 
 load-json-file@^1.0.0:
   version "1.1.0"

@@ -1,2 +1,2 @@
-import DraginResize from './lib/dragin-reisze';
+import DraginResize from './lib/dragin-resize';
 export default DraginResize;
