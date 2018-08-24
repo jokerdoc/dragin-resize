@@ -1,6 +1,6 @@
 {
-  "name": "lemon-dragin-resize",
-  "version": "0.1.0",
+  "name": "jo-dragin-resize",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "lemon-pack": "^0.2.0"
   },
   "dependencies": {
-    "lemon-dragin": "^0.2.0",
-    "lemon-util": "^2.0.0"
+    "jo-dragin": "^0.2.0",
+    "jo-util": "^0.1.0"
   }
 }
