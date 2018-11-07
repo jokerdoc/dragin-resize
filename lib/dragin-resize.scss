@@ -6,6 +6,7 @@
   .nw-resize {
     position: absolute;
     background: rgba(64, 158, 255, .3);
+    border-radius: 2px;
     opacity: 0;
     transition: opacity .5s;
 
@@ -48,4 +49,5 @@
   background: rgba(64, 158, 255, .3);
   opacity: .6;
   border: 1px dashed #b7b7b7;
+  z-index: 9998;
 }

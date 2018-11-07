@@ -10,18 +10,26 @@ yarn add jo-dragin-resize
 
 ### 使用
 ```js
-import DraginResize from 'jo-dragin-resize';
+import util from 'jo-util';
+import DraginResize from './dragin-resize.js';
 
-new DraginResize(docment.querySelector('#box'), {
+new DraginResize(util.getEls('.box')[0], {
   clone: true,
   start(x, y) {
     console.log('start', x, y);
   },
-  move(x, y) {
-    console.log('move', x, y);
+  move(info) {
+    console.log('move', info);
   },
-  end() {
-    console.log('end');
+  end(info) {
+    console.log('end', info);
+
+    if (info.dir == 'ver') {
+      this.elem.style.height = info.height + 'px';
+    }
+    else if (info.dir == 'hor') {
+      this.elem.style.width = info.width + 'px';
+    }
   }
 })
 ```
