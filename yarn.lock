@@ -2781,6 +2781,13 @@ jo-util@^0.1.0:
     lodash "^4.17.10"
     moment "^2.22.2"
 
+jo-util@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/jo-util/-/jo-util-0.1.5.tgz#821db2ff0b899bcfb9c241b38be34ec3f00dc02a"
+  dependencies:
+    lodash "^4.17.10"
+    moment "^2.22.2"
+
 js-base64@^2.1.8:
   version "2.4.8"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.8.tgz#57a9b130888f956834aa40c5b165ba59c758f033"
