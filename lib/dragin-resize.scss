@@ -21,7 +21,7 @@
     left: initial !important;
     width: 6px;
     height: 100%;
-    cursor: e-resize;
+    cursor: col-resize;
   }
 
   .dragin-resize-ver {
@@ -30,7 +30,7 @@
     bottom: 0;
     width: 100%;
     height: 6px;
-    cursor: n-resize;
+    cursor: row-resize;
   }
 
   .nw-resize {
