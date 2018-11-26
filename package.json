@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin-resize",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "jo-pack": "^0.1.0"
   },
   "dependencies": {
-    "jo-dragin": "^0.2.0",
-    "jo-util": "^0.1.5"
+    "jo-dragin": "^0.2.5",
+    "jo-util": "^0.1.7"
   }
 }
