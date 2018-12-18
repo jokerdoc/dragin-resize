@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin-resize",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -8,13 +8,24 @@
   },
   "main": "index.js",
   "scripts": {
-    "dev": "jo-pack"
+    "build": "rollup -c"
   },
+  "files": [
+    "index.js",
+    "lib/**",
+    "dist/**"
+  ],
   "devDependencies": {
-    "jo-pack": "^0.1.0"
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-external-helpers": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "rollup": "^0.68.0",
+    "rollup-plugin-babel": "^4.1.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-scss": "^0.4.0"
   },
   "dependencies": {
-    "jo-dragin": "^0.2.0",
-    "jo-util": "^0.1.5"
+    "jo-dragin": "^0.2.7",
+    "jo-util": "^0.2.4"
   }
 }
