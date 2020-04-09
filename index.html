@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="node_modules/jo-dragin/dist/dragin.css">
+  <link rel="stylesheet" href="dist/dragin-resize.css">
+  <script src="node_modules/jo-util/dist/util.js"></script>
+  <script src="node_modules/jo-dragin/dist/dragin.js"></script>
+  <script src="dist/dragin-resize.js"></script>
   <title>Draggable Demo</title>
   <style>
   html,body {
@@ -25,5 +30,26 @@
 </head>
 <body>
   <div class="box" style="left: 10px; top: 10px;"></div>
+  <script>
+    new joDraginResize(joUtil.getEls('.box')[0], {
+      clone: true,
+      start(x, y) {
+        console.log('start', x, y);
+      },
+      move(info) {
+        console.log('move', info);
+      },
+      end(info) {
+        console.log('end', info);
+
+        if (info.dir.includes('ver')) {
+          this.elem.style.height = info.height + 'px';
+        }
+        if (info.dir.includes('hor')) {
+          this.elem.style.width = info.width + 'px';
+        }
+      }
+    })
+  </script>
 </body>
 </html>
