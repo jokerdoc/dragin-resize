@@ -1,6 +1,6 @@
 {
   "name": "jo-dragin-resize",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "rollup-plugin-scss": "^2.1.0"
   },
   "dependencies": {
-    "jo-dragin": "^0.3.2",
-    "jo-util": "^0.3.1"
+    "jo-dragin": "^0.3.3",
+    "jo-util": "^0.3.2"
   }
 }
